@@ -1,20 +1,20 @@
 from behave import *
 import requests
 import json
-from configuration import USER_POPRAVKA, USER_POPRAVKA_CHANGE
+#from configuration import USER_POPRAVKA, USER_POPRAVKA_CHANGE
 
 import pathlib
 from pathlib import Path
-# USER_POPRAVKA = {
-#     "username": "Popravka",
-#     "email": "test@test.test",
-#     "groups": []
-# }
-# USER_POPRAVKA_CHANGE = {
-#     "username": "Popravka",
-#     "email": "new_test@test.test",
-#     "groups": []
-# }
+USER_POPRAVKA = {
+    "username": "Popravka",
+    "email": "test@test.test",
+    "groups": []
+}
+USER_POPRAVKA_CHANGE = {
+    "username": "Popravka",
+    "email": "new_test@test.test",
+    "groups": []
+}
 
 """create a variable to work with json file"""
 path = Path(pathlib.Path.cwd(), "response.json")
