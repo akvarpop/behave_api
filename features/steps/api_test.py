@@ -1,7 +1,8 @@
 from behave import *
 import requests
 import json
-from configuration import USER_POPRAVKA, USER_POPRAVKA_CHANGE
+#from configuration import USER_POPRAVKA, USER_POPRAVKA_CHANGE
+
 
 import pathlib
 from pathlib import Path
